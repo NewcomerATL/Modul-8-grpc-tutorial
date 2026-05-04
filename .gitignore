@@ -1,0 +1,54 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Byproducts
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# MacOS
+.DS_Store
+
+# Other
+node_modules/
+
+# Ignore binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Ignore coverage
+coverage/
+
+# Ignore Python cache (if any)
+__pycache__/
+*.pyc
+
+# Ignore JetBrains
+*.ipr
+*.iws
+out/
+
+# Ignore build scripts
+/build/
